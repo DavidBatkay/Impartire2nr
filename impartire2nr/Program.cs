@@ -6,15 +6,15 @@
         {
             int a;
             int b;
-            Console.WriteLine("a= ");
+            Console.Write("a= ");
             a=int.Parse(Console.ReadLine());
-            Console.WriteLine("b= ");
+            Console.Write("b= ");
             b=int.Parse(Console.ReadLine());
             if (a % b != 0)
-                Console.WriteLine("");
-            else
-                Console.WriteLine("");
-            
+                Console.WriteLine("Nu se poate efectua impartirea exacta");
+            else 
+                Console.WriteLine(a / b);
+
         }
     }
 }
